@@ -33,11 +33,14 @@ console.log(blank);
 
 // BONUS
 // B1
-const quarter = 0.25, dime = 0.10, nickel = 0.05, penny = 0.01
+const quarter = 0.25, dime = 0.10, nickel = 0.05, penny = 0.01;
 console.log(quarter);
 console.log(dime);
 console.log(nickel);
 console.log(penny);
+
+// another way to do B1
+// const [quarter, dime, nickel, penny] = [0.25, 0.10, 0.05, 0.01];
 
 // B2
 console.log(quarter, dime, nickel, penny);
@@ -47,8 +50,12 @@ let letters = "qwertyuiop";
 console.log(letters);
 
 // B4
-console.log("qwertyuiop".length);
-console.log("qwertyuiop"[9]);
+console.log(letters.length);
+console.log(letters[9]);
+// or
+// console.log(letters.length);
+// or
+// console.log(letters[length.length - 1]);
 
 
 
